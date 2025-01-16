@@ -14,12 +14,12 @@ API_HASH = "b193a1164e06fa32a1503d179e31ffdf"
 BOT_TOKEN = "7916671118:AAG87y9HKwXN083h82Qq-HSMnbKw_Sg1D4c"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://dudefocus95:dudefocus95@cluster0.lxwu7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002450427488
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 7853532977
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQE1_aEAw2xNRmDPOA6_1Qx57JZgr6eBQCy-3WmPBlG0td7xX97QfJHhZ3N8u_TfbRWegyIz-2HcpMUlIRuqhYCXnZ0uKYgQbInYQwfSqW2nNiLDI2EUmLsitoMmV4D0zzVrOhCbcPpbPqlYupyHv4h6VqnP1Kw2-wjN1NY04yIYpJriN10vHP8z1ASGnh_gKitGdYr9udAg8IS7H0IBx1XX1D-MrqQE98YudqECOWobpdklFa_UruSiR0yWD6vASipatt8xX38fULfeBiAZ5vTD6E1zJaZDdkoUGDcNhwDz_KXsp1XhjibAU_HI0TKn5LDjj73t9pCal3hiqsYypsQaaVBzywAAAAHUG2cxAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -79,7 +79,7 @@ confirmer = {}
 
 START_IMG_URL = "https://graph.org/file/3f5251255bef9a7b9a5f1-a10e36bb3e0132987d.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/3f5251255bef9a7b9a5f1-a10e36bb3e0132987d.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
